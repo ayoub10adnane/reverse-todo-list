@@ -15,7 +15,7 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    image: ayoub10adnane/backend:${GITHUB_SHA}
+    image: ayoub10corleone/backend:${GITHUB_SHA}
     container_name: backend
     restart: always
     ports:
@@ -31,7 +31,7 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    image: ayoub10adnane/frontend:${GITHUB_SHA}
+    image: ayoub10corleone/frontend:${GITHUB_SHA}
     container_name: frontend
     restart: always
     ports:
