@@ -4,8 +4,8 @@
     "description": "Backend for Reverse Todo List App",
     "main": "app.js",
     "scripts": {
-        "start": "node app.js",
-        "test": "jest"
+    "start": "node app.js",
+    "test": "node node_modules/jest/bin/jest.js"
     },
     "dependencies": {
         "cors": "^2.8.5",
