@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha test.js"
+    "test:e2e": "mocha C:/Users/ayoub/Downloads/reverse-todo-list-main/reverse-todo-list-main/e2e-tests/test.js"
   },
   "keywords": [],
   "author": "",
